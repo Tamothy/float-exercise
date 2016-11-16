@@ -1,8 +1,11 @@
+/*2 column exercise*/
+
 body, html {
   margin: 0px;
   padding: 0px;
   color: #000;
-  background: #a7a09a;
+  background: #EDEFF0;
+  font-family: futura;
 }
 
 h1 {
@@ -67,4 +70,54 @@ h2 {
 
 * html #footer {
   height: 1px;
+}
+
+/*Treehouse exercise*/
+
+header {
+  background-color: #2C9676;
+  padding: 1px;
+  border-radius: 7px 7px 0px 0px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.top-right {
+  background-color: #F092B0;
+}
+
+.bottom-left {
+  background-color: #838CC7;
+}
+
+.content {
+  padding-left: 20px;
+}
+.treehouse-container {
+  border: solid #EDEFF0 2px;
+  border-radius: 10px;
+  width: 500px;
+  float: left;
+  margin: 20px;
+  background-color: #FFFFFF;
+  margin: 20px;
+}
+
+.treehouse-buttons {
+  border: solid gray 2px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.treehouse-buttons:hover {
+  opacity: .7;
+  filter: brightness(.7);
+  cursor: pointer;
+  cursor: hand;
+}
+
+.treehouse-buttons:active {
+  box-shadow: none;
 }
